@@ -37,7 +37,7 @@ void _main()
 
 			ImGui::SetNextWindowSize({ 400, 400 });
 			ImGui::Begin("Hello world!", nullptr, 0);
-			ImGui::Text("Liviu este gei");
+			ImGui::Text("Cool text");
 			if (ImGui::Button("Hello, there!", { 100, 50 }))
 			{
 				show = !show;
